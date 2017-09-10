@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav {
+	background-color: rgba(240, 40, 0,1);
+	height: 75px;
+}
+
+#hottake {
+	height: 75px;
+	opacity: 1;
+}

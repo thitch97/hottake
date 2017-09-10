@@ -1,0 +1,10 @@
+version: '3'                                     
+services:  
+  frontend:                                       
+    build: angular-client/.                                                  
+    image: test     
+    # mount source for hot reloading                                                        
+    volumes:                                                  
+      - ./angular-client:/home/node                                                         
+    ports:                                                 
+      - 4200:4200
